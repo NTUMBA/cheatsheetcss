@@ -4,14 +4,17 @@ body{
   margin: 0;
 }
 /*=================================Start header================================*/
-header{/*L'en-tête*/
+.main-header{/*L'en-tête*/
   background-color: honeydew;
 }
 /*=================================End header==================================*/
 /*=================================Main starts================================*/
-main{
+.main-primary{
 border:2px solid green;
 
+}
+.main-tertiary{
+  border-top: 2px solid lawngreen;
 }
 h1{
   font-size: 70px;
@@ -33,7 +36,7 @@ p{
 /*===============================End paragraph==================================*/
 /*==================================Main end================================================*/
 /*==================================footer starts===========================================*/
-#main-footer{
+.main-footer{
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom: solid 25px honeydew;
