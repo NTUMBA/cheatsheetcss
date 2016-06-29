@@ -1,0 +1,13 @@
+
+body{
+}
+h1{
+  font-size: 70px;
+  color: dodgerblue;
+}/*Valeurs réservées aux titre de niveau 1*/
+header{/*L'en-tête*/
+  background-color: honeydew
+}
+p{
+  font-size: 20px;
+}
