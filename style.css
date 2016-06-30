@@ -1,26 +1,15 @@
-
+/*===type selectors=====*/
 body{
   color: #878787;
   margin: 0;
 }
-/*=================================Start header================================*/
-.main-header{/*L'en-tête*/
-  background-color: honeydew;
+/*===span selector=====================================*/
+span{
+  color: mediumorchid;
+  font-family: fantasy;
 }
-/*=================================End header==================================*/
-/*=================================Main starts================================*/
-.main-border{
-border:2px solid green;
-
-}
-.main-tertiary{
-  border-bottom: 2px solid lawngreen;
-}
-ul li{
-  background-color: greenyellow;
-  color: green;
-  margin-bottom: 4px;
-}
+/*===End of span selector==============================*/
+/*===title selectors=========================================================*/
 h1{
   font-size: 70px;
   color: greenyellow;
@@ -33,17 +22,38 @@ h3{
   font-size: 30px;
   color: #ffd700;
 }
-/*==============================End titles=============================================*/
-/*==============================start paragraph================================*/
+/*===End title selectors=========================================================*/
+/*===paragraph selectors======================================================*/
 p{
   font-size: 20px;
 }
-/*===============================End paragraph==================================*/
-/*==================================Main end================================================*/
-/*==================================footer starts===========================================*/
+/*===list selectors==============================================================*/
+/*An example of descendant selector*/
+ul li{
+  background-color: greenyellow;
+  color: green;
+  margin-bottom: 4px;
+}
+/*===End list selectors=========================================================*/
+/*============================Class selectors================================*/
+.main-header{
+    background-color: honeydew;
+}
 .main-footer{
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom: solid 25px honeydew;
 }
-/*==================================footer end=============================================*/
+.main-border{
+border:2px solid green;
+}
+.main-tertiary{
+  border-bottom: 2px solid lawngreen;
+}
+/*===End class selectors=======================================================*/
+/*====Pseudo-class selector====================================================*/
+a:hover{
+  color: red;
+  background-color: white;
+}
+/*====End of pseudoclass selector==============================================*/
