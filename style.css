@@ -16,9 +16,14 @@ border:2px solid green;
 .main-tertiary{
   border-bottom: 2px solid lawngreen;
 }
+ul li{
+  background-color: greenyellow;
+  color: green;
+  margin-bottom: 4px;
+}
 h1{
   font-size: 70px;
-  color: white;
+  color: greenyellow;
 }/*Valeurs réservées aux titre de niveau 1*/
 h2{
   font-size: 40px;
