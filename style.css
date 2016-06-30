@@ -1,7 +1,7 @@
 /*===type selectors=====*/
 body{
   color: #878787;
-  margin: 0;
+  margin: 1%;
 }
 /*===span selector=====================================*/
 span{
@@ -11,8 +11,11 @@ span{
 /*===End of span selector==============================*/
 /*===title selectors=========================================================*/
 h1{
+  text-align: justify;
   font-size: 70px;
   color: greenyellow;
+  padding-bottom: 40px;
+  padding-left: 17%;
 }/*Valeurs réservées aux titre de niveau 1*/
 h2{
   font-size: 40px;
@@ -38,18 +41,33 @@ ul li{
 /*============================Class selectors================================*/
 .main-header{
     background-color: honeydew;
+
+}
+.main-primary{
+}
+.main-secondary{
+}
+.main-tertiary{
+  border: 2px solid lawngreen;
+  border-radius: 40px;
+}
+.main-border{
+border:2px solid green;
+margin: 30px;
 }
 .main-footer{
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom: solid 25px honeydew;
 }
-.main-border{
-border:2px solid green;
+.pad{
+  padding-left: 2%;
 }
-.main-tertiary{
-  border-bottom: 2px solid lawngreen;
+.go-to{
+  text-align:justify;
+  font-size: 25px;
 }
+
 /*===End class selectors=======================================================*/
 /*====Pseudo-class selector====================================================*/
 a:hover{
