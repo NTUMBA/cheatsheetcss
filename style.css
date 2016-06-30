@@ -9,12 +9,12 @@ body{
 }
 /*=================================End header==================================*/
 /*=================================Main starts================================*/
-.main-primary{
+.main-border{
 border:2px solid green;
 
 }
 .main-tertiary{
-  border-top: 2px solid lawngreen;
+  border-bottom: 2px solid lawngreen;
 }
 h1{
   font-size: 70px;
