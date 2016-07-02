@@ -16,6 +16,7 @@ h1{
   color: greenyellow;
   padding-bottom: 40px;
   padding-left: 17%;
+  text-shadow: 0 5px 0 #aaa;
 }/*Valeurs réservées aux titre de niveau 1*/
 h2{
   font-size: 40px;
@@ -70,6 +71,10 @@ margin: 30px;
 
 /*===End class selectors=======================================================*/
 /*====Pseudo-class selector====================================================*/
+a:link{
+  text-decoration: none;
+}
+/*to delete underline====================================*/
 a:hover{
   color: red;
   background-color: white;
