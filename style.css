@@ -35,8 +35,10 @@ p{
 /*An example of descendant selector*/
 ul li{
   background-color: greenyellow;
-  color: green;
+  color: fuchsia;
   margin-bottom: 4px;
+  list-style-type: lower-latin;
+  list-style-position: inside;
 }
 /*===End list selectors=========================================================*/
 /*============================Class selectors================================*/
